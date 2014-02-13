@@ -8,5 +8,6 @@ class DrupalInstaller extends BaseInstaller
         'theme'     => 'themes/{$name}/',
         'profile'   => 'profiles/{$name}/',
         'drush'     => 'drush/{$name}/',
+        'core'      => 'core/{$name}'
     );
 }
